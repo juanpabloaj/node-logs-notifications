@@ -4,6 +4,10 @@
   "description": "Send logs to notifications services",
   "main": "index.js",
   "author": "juanpablo <jpabloaj@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:juanpabloaj/node-logs-notifications.git"
+  },
   "license": "MIT",
   "dependencies": {
     "slack-node": "0.0.93"
