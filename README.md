@@ -8,7 +8,7 @@ Send logs message to notifications services or to `console.log` setting environm
 
 ## Environment variables
 
-To send to [slack.com](slack.com) you need set the environment variable
+To send to [slack.com](https://slack.com/) you need set the environment variable
 
     export SLACK_TOKEN="slack-token"
 
