@@ -1,0 +1,11 @@
+{
+  "name": "logs-notifications",
+  "version": "0.0.1",
+  "description": "Send logs to notifications services",
+  "main": "index.js",
+  "author": "juanpablo <jpabloaj@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "slack-node": "0.0.93"
+  }
+}
