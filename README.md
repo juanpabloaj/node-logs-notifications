@@ -14,6 +14,10 @@ To send to [slack.com](https://slack.com/) you need set the environment variable
 
 Without defined variables the default output is the `console.log`.
 
+Ignore all messages when
+
+    NODE_ENV = 'test'
+
 ## Usage
 
     var log = require('logs-notifications');

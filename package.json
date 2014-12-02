@@ -1,6 +1,6 @@
 {
   "name": "logs-notifications",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Send logs to notifications services",
   "main": "index.js",
   "author": "juanpablo <jpabloaj@gmail.com>",

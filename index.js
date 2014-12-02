@@ -1,6 +1,8 @@
 var Slack = require('slack-node');
 
 function log(message) {
+  if (process.env.NODE_ENV === 'test'){return;}
+
   if ( process.env.SLACK_TOKEN !== undefined ) {
     slack = new Slack(process.env.SLACK_TOKEN);
     slack.api(
@@ -11,6 +13,7 @@ function log(message) {
   } else {
     console.log(message);
   }
+
 }
 
 module.exports = log;
